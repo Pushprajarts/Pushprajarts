@@ -13,7 +13,9 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/slider.css" />
+
+
+    
 
 	<!-- COLORS -->
 	<link rel="stylesheet" href="css/blue.css" title="blue"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
@@ -25,15 +27,7 @@
 	<link rel="alternate stylesheet" href="css/red.css" title="red">
 	<link rel="alternate stylesheet" href="css/blue-munsell.css" title="blue-munsell">
 
-	<!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO 
-	<link rel="stylesheet" href="css/demo.css">
 
--->
-	
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<script src="js/respond.js"></script>
-    <![endif]-->
     
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -104,86 +98,9 @@ body
 						<div class="service-aro-right"></div>
 					</div>
                     
-                    <!-- IMAGE SLIDER -->
-<!-- Container for the image gallery -->
-<div class="container">
-
-  <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 4</div>
-       <img src="images/Ganpati_Decoration/1.jpg" style="height: 100%" >
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 4</div>
-      <img src="images/Ganpati_Decoration/2.jpg" style="height: 100%" >
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 4</div>
-       <img src="images/Ganpati_Decoration/3.jpg" style="height: 100%" >
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">4 / 4</div>
-       <img src="images/Ganpati_Decoration/4.jpg" style="height: 100%" >
-  </div>
-  
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    
-    <!-- Image Slider -->
-    
-    <!-- demo content -->
-<div class="demo-wrapper">
-	<div id="slider" class="swipe">
-		<div class="swipe-wrap">
-			<div>
-				<img src="images/Ganpati_Decoration/1.jpg" width="600" height="350">
-			</div>
-			<div>
-				<img src="images/Ganpati_Decoration/2.jpg" width="600" height="350">
-			</div>
-			<div>
-				<img src="images/Ganpati_Decoration/3.jpg" width="600" height="350">
-			</div>
-			<div>
-				<img src="images/Ganpati_Decoration/4.jpg" width="600" height="350">
-			</div>
-			<div>
-				<img src="img/origami.jpg" width="600" height="350">
-			</div>
-		</div>
-		<span class="nav prev">Prev</span>
-		<span class="nav next">Next</span>
-	</div>
-</div>
-
-  <!-- Image text -->
-  <div class="caption-container">
-    <h3 id="caption"></h3>
-  </div>
-
-  <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="images/Ganpati_Decoration/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Ganpati Decoration">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/Ganpati_Decoration/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Ganpati Decoration">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/Ganpati_Decoration/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Ganpati Decoration">
-    </div>
-     <div class="column">
-      <img class="demo cursor" src="images/Ganpati_Decoration/4.jpg" style="width:100%" onclick="currentSlide(3)" alt="Ganpati Decoration">
-    </div>
-  </div>
-</div>
+                
                     
-    <!--             
-                    <h2>Our Recent events</h2>
+       <h2>Our Recent events</h2>
 				<div class="col-md-3 col-sm-6 text-center service">
 					<i class="fa fa-picture-o"></i>
                     <h3>Ganpati Decoration</h3>
@@ -204,10 +121,11 @@ body
 					<h3>Flower Arrangements</h3>
 					<p>Images coming soon.</p>
 				</div>
+	</div><!-- /.row -->
+                
+                <!-- image sliding -->
+                
 
- -->
-			</div><!-- /.row -->
-                    
                    
 		</div>
         </div><!-- /.container -->
@@ -289,33 +207,11 @@ body
 	<script type="text/javascript" src="js/jquery.min.js"></script><!-- jQuery -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
 	<script type="text/javascript" src="js/countdown.js"></script><!-- Countdown -->
-	<script type="text/javascript" src="js/jquery.ajaxchimp.js"></script><!-- ajaxchimp -->
 	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
-    <script type="text/javascript" src="js/index.js"></script><!-- Scripts -->
+
     
-    
-    <!--  jquery -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../_nav/js/jquery.js"><\/script>')</script>
 
-<!-- demo scripts -->
-<link rel="stylesheet" href="css/sliderimg.css">
-<script src="js/swipe.js"></script>
 
-<!-- nav script -->
-<script src="../_nav/js/nav.js" type="text/javascript"></script>
-
-<script>
-$(document).ready(function() {
-	Slider = $('#slider').Swipe({
-		auto: 3000,
-		continuous: true
-	}).data('Swipe');
-
-	$('.next').on('click', Slider.next);
-	$('.prev').on('click', Slider.prev);
-});
-</script>
 
 </body>
 </html>
